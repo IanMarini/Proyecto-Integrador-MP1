@@ -21,9 +21,10 @@ Carpeta 'Evidencia 1':
 Carpeta 'Evidencia 2':
 * Programación Orientada a Objetos (POO) y al uso de Archivos
 en Python (archivos de texto y binarios).
-  Subcarpeta:
+
+  - Subcarpeta:
   - Base de Datos :
-    *
-    *
+    * xx
+    * xxx
 
 
