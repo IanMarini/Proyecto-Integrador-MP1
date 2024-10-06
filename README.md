@@ -16,6 +16,14 @@ Modulacion del proyecto:
 Carpeta 'Evidencia 1': 
 * Documento sobre el tema y los requerimientos de base de datos.
 * DER (Crow foot) MySQL workbench. 
-* Proyecto Python. 
+* Proyecto Python.
+
+Carpeta 'Evidencia 2':
+* Programación Orientada a Objetos (POO) y al uso de Archivos
+en Python (archivos de texto y binarios).
+  Subcarpeta:
+  - Base de Datos :
+    *
+    *
 
 
