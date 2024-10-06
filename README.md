@@ -24,7 +24,7 @@ en Python (archivos de texto y binarios).
 
   - Subcarpeta:
   - Base de Datos :
-    * xx
-    * xxx
+    * Creación de Base de datos relacional en MySQL, creación de tablas y agregación de relaciones (claves primarias y foráneas).
+    * Inyección de datos y creación de consultas simple y complejas realizando interacción entre las tablas.
 
 
