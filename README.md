@@ -28,9 +28,9 @@ en Python (archivos de texto y binarios).
     * Inyección de datos y creación de consultas simples y complejas realizando interacciónes entre las tablas.
 
 Carpeta 'Evidencia 3':
-Subcarpetas
+- Subcarpetas
 - Programacion 1:
-   *
+   
 - Base de Datos:
    * Estructura de BBDD corregida con optimizaciones y mejoras segun feedback evidencia 2
    *  Consultas basicas y avanzadas
