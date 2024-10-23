@@ -29,9 +29,9 @@ en Python (archivos de texto y binarios).
 
 Carpeta 'Evidencia 3':
 - Subcarpetas
-- Programacion 1:
+  * Programacion 1:
    
-- Base de Datos:
-   * Estructura de BBDD corregida con optimizaciones y mejoras segun feedback evidencia 2
-   *  Consultas basicas y avanzadas
+  * Base de Datos:
+    Estructura de BBDD corregida con optimizaciones y mejoras segun feedback evidencia 2
+    Consultas basicas y avanzadas
 
