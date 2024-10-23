@@ -27,4 +27,11 @@ en Python (archivos de texto y binarios).
     * Creación de Base de datos relacional en MySQL, creación de tablas y agregación de relaciones (claves primarias y foráneas).
     * Inyección de datos y creación de consultas simples y complejas realizando interacciónes entre las tablas.
 
+Carpeta 'Evidencia 3':
+Subcarpetas
+- Programacion 1:
+   *
+- Base de Datos:
+   * Estructura de BBDD corregida con optimizaciones y mejoras segun feedback evidencia 2
+   *  Consultas basicas y avanzadas
 
