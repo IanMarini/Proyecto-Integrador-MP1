@@ -11,7 +11,7 @@ from mysql.connector import Error
 
 
 # RUTA DE ARCHIVOS
-RUTA_DB2 = "ruta/a/tu/base_de_datos.db"
+RUTA_DB2 = 'C:/Users/marin/OneDrive/Desktop/Evidencia_1/App/mi_base_de_datos.db'
 RUTA_CARPETA = r"C:\Users\marin\OneDrive\Desktop\Evidencia_1\App"
 RUTA_USUARIOS = os.path.join(RUTA_CARPETA, "usuarios.txt")
 RUTA_ACCESOS = os.path.join(RUTA_CARPETA, "accesos.txt")
