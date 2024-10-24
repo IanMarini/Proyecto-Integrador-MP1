@@ -32,6 +32,6 @@ Carpeta 'Evidencia 3':
   * Programacion 1:
    
   * Base de Datos:
-    Estructura de BBDD corregida con optimizaciones y mejoras segun feedback evidencia 2
+    Estructura de BBDD corregida con optimizaciones y mejoras segun feedback evidencia 2 /
     Consultas basicas y avanzadas
 
