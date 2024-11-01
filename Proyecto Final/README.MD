@@ -3,7 +3,7 @@
 ## Estructura de Carpetas
 
 ### Programación 1
-Ampliación de la aplicación Python de la 'Evidencia 2', incorporando las siguientes características:
+Ampliación de la aplicación Python, incorporando las siguientes características:
 
 - **Opciones de Ordenamiento**: Implementación de métodos de ordenamiento para organizar los registros de usuarios y datos de lluvia.
 - **Carga de Registros Pluviales de un Año**: Funcionalidad para cargar y gestionar datos pluviales anuales, permitiendo visualizar y almacenar precipitaciones mensuales.
