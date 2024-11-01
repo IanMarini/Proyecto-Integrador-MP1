@@ -1,16 +1,0 @@
-€•      ]”(Œ__main__”ŒUsuario”“”)”}”(Œid”KŒnombre”Œjuan”Œapellido”Œperez”Œdni”Œ111111”Œusuario”Œperdiz”Œclave”Œ
-Perdiz123123_”Œcorreo”Œperez@g.com”Œfecha_nacimiento”Œ
-01/01/1950”ubh)”}”(Œid”KŒnombre”Œpedro”Œapellido”Œparedes”Œdni”Œ222222”Œusuario”ŒMuro123132_”Œclave”ŒMUro_123123”Œcorreo”Œpedro@g.com”Œfecha_nacimiento”Œ
-02/02/1960”ubh)”}”(Œid”KŒnombre”ŒMaria”Œapellido”ŒMerlino”Œdni”Œ333333”Œusuario”Œfamadams”Œclave”ŒAdam123123_”Œcorreo”Œwednesday@g.com”Œfecha_nacimiento”Œ
-04/04/1970”ubh)”}”(Œid”KŒnombre”Œgeronimo”Œapellido”Œcabrera”Œdni”Œ444444”Œusuario”Œcabrito”Œclave”ŒCabra123123_”Œcorreo”Œcabra@g.com”Œfecha_nacimiento”Œ
-04/04/1980”ubh)”}”(Œid”KŒnombre”Œromina”Œapellido”Œlobato”Œdni”Œ555555”Œusuario”Œshakira”Œclave”ŒLobi123123_”Œcorreo”Œ
-woof@g.com”Œfecha_nacimiento”Œ
-05/05/1990”ubh)”}”(Œid”KŒnombre”Œsandro”Œapellido”Œsancho”Œdni”Œ666666”Œusuario”Œsander”Œclave”ŒSanda123132_”Œcorreo”Œsurly@g.com”Œfecha_nacimiento”Œ
-06/06/2000”ubh)”}”(Œid”KŒnombre”Œ
-justiniana”Œapellido”Œ
-marquesina”Œdni”Œ777777”Œusuario”Œjestata”Œclave”ŒJest123123_”Œcorreo”Œmarki@g.com”Œfecha_nacimiento”Œ
-08/08/1940”ubh)”}”(Œid”KŒnombre”Œjoaquin”Œapellido”Œsabina”Œdni”Œ888888”Œusuario”Œjoacoo”Œclave”ŒjacK123123_A”Œcorreo”Œjoaco@g.com”Œfecha_nacimiento”Œ
-08/08/1930”ubh)”}”(Œid”K	Œnombre”Œfranco”Œapellido”Œferrera”Œdni”Œ999999”Œusuario”Œfranki”Œclave”ŒFrank123123_”Œcorreo”Œfrank@g.com”Œfecha_nacimiento”Œ
-09/09/1920”ubh)”}”(Œid”K
-Œnombre”Œhugo”Œapellido”Œhuerta”Œdni”Œ123123”Œusuario”Œbaggins”Œclave”ŒBarge123123_”Œcorreo”Œbaggio@g.com”Œfecha_nacimiento”Œ
-10/10/1910”ube.
