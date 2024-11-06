@@ -13,7 +13,6 @@ import mysql.connector
 from mysql.connector import Error
 import numpy as np
 
-
 # --------------------------------------------------------------------------------------------------------------- 
 # RUTA DE ARCHIVOS
 # --------------------------------------------------------------------------------------------------------------- 
@@ -282,12 +281,12 @@ def conectar_db(database=None, user=None, password=None, host=None):
         return None
 
 # --------------------------------------------------------------------------------------------------------------- 
-# FUNCIONE CREAR TABLA MYSQL
+# FUNCION CREAR TABLA MYSQL
 # --------------------------------------------------------------------------------------------------------------- 
 def crear_tabla_mysql():
     print("Intentando conectar a la base de datos...")  # Mensaje de prueba
     # Conectar a la base de datos
-    conn, creds = conectar_db()  # Usamos la función conectar_db() ya implementada
+    conn = conectar_db()  # Usamos la función conectar_db() ya implementada
     if conn is None:
         print("No se pudo establecer conexión con la base de datos.")
         return
@@ -315,11 +314,15 @@ def crear_tabla_mysql():
     print("Ingrese las columnas en el siguiente formato:")
     print("nombre_columna1 tipo_columna1 restricciones, nombre_columna2 tipo_columna2 restricciones")
     print("Ejemplo: nombre VARCHAR(255) PRIMARY KEY, edad INT NOT NULL, comuna VARCHAR(100) DEFAULT 'Desconocida'")
-    print("Tipos de columnas: INT, VARCHAR(n), FLOAT, DATE, etc.")
-    print("Restricciones: PRIMARY KEY, NOT NULL, UNIQUE, CHECK (condición), DEFAULT (valor)")
     
-    columnas = input("\nIngrese las columnas separadas por comas: ")
+    columnas = input("\nIngrese las columnas separadas por comas: ").strip()
     
+    # Validar que se hayan ingresado columnas
+    if not columnas:
+        print("Error: Debe proporcionar al menos una columna.")
+        conn.close()
+        return
+
     # Limpiar entradas de columnas y validar que no haya nombres duplicados
     columnas_lista = [col.strip() for col in columnas.split(',')]  # Dividir y limpiar espacios
     columnas_sin_duplicados = list(dict.fromkeys(columnas_lista))  # Eliminar duplicados mientras se conserva el orden
@@ -330,26 +333,27 @@ def crear_tabla_mysql():
         return
     
     columnas = ', '.join(columnas_sin_duplicados)  # Volver a unir en una cadena
-    
+
     # Crear la tabla con IF NOT EXISTS
     query = f"CREATE TABLE IF NOT EXISTS {nombre_tabla} ({columnas});"
     
     try:
+        print(f"Consulta SQL generada: {query}")  # Imprimir la consulta SQL generada
         cursor.execute(query)
         conn.commit()  # Guarda los cambios en la base de datos
         print(f"Tabla '{nombre_tabla}' creada exitosamente.")
     except mysql.connector.Error as e:
-        print(f"Error al crear la tabla: {e}")   
+        print(f"Error al crear la tabla: {e}")
     finally:
         conn.close()  # Cierra la conexión
     
 # --------------------------------------------------------------------------------------------------------------- 
-# FUNCIONE ELIMINAR TABLA MYSQL
+# FUNCION ELIMINAR TABLA MYSQL
 # --------------------------------------------------------------------------------------------------------------- 
 def eliminar_tabla_mysql():
     print("Intentando conectar a la base de datos...")  # Mensaje de prueba
     # Conectar a la base de datos
-    conn, creds = conectar_db()  # Usamos la función conectar_db() ya implementada
+    conn = conectar_db()  # Usamos la función conectar_db() ya implementada
     if conn is None:
         print("No se pudo establecer conexión con la base de datos.")
         return
@@ -399,7 +403,7 @@ def eliminar_tabla_mysql():
 def agregar_datos_mysql():
     print("Intentando conectar a la base de datos...")  # Mensaje de prueba
     # Conectar a la base de datos
-    conn, creds = conectar_db()  # Usamos la función conectar_db() ya implementada
+    conn = conectar_db()  # Usamos la función conectar_db() ya implementada
     if conn is None:
         print("No se pudo establecer conexión con la base de datos.")
         return
@@ -574,7 +578,7 @@ def visualizar_mysql():
 def modificar_datos_mysql():
     print("Intentando conectar a la base de datos...")  # Mensaje de prueba
     # Conectar a la base de datos
-    conn, creds = conectar_db()  # Usamos la función conectar_db() ya implementada
+    conn = conectar_db()  # Usamos la función conectar_db() ya implementada
     if conn is None:
         print("No se pudo establecer conexión con la base de datos.")
         return
@@ -638,7 +642,7 @@ def modificar_datos_mysql():
 def eliminar_datos_mysql():
     print("Intentando conectar a la base de datos...")  # Mensaje de prueba
     # Conectar a la base de datos
-    conn, creds = conectar_db()  # Usamos la función conectar_db() ya implementada
+    conn = conectar_db()  # Usamos la función conectar_db() ya implementada
     if conn is None:
         print("No se pudo establecer conexión con la base de datos.")
         return
@@ -953,7 +957,6 @@ def mostrar_todos_los_usuarios():
                 print(u)
     else:
         print("\nNo hay usuarios registrados en 'usuariosOrdenadosPorUsername.ispc'.")
-
 
 # ---------------------------------------------------------------------------------------------------------------  
 # FUNCIÓN: Buscar Usuario
